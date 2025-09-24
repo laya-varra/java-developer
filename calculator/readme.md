@@ -1,9 +1,3 @@
-Got it ✅ I’ll prepare a **README.md** file that clearly explains your Smart Calculator project.
-
-Here’s a clean and professional version:
-
----
-
 # 🧮 Smart Calculator (Java - Console Based)
 
 A **console-based calculator in Java** that works like a real calculator.
@@ -16,7 +10,7 @@ It supports **multiple operators, parentheses, decimals, and modulo (%)**, with 
 * ➕➖✖️➗ Basic arithmetic: `+  -  *  /`
 * ➗ Modulo operation: `%`
 * 🧩 Parentheses support: `(2+3)*5`
-* 🔄 Auto-balances parentheses: `(5+2` → auto-corrects to `(5+2)`
+* 🔄 Auto-balances parentheses: `(5+2` → autocorrects to `(5+2)`
 * 🔢 Handles integers and decimals: `10.5+2.3*3`
 * ⚠️ Error handling:
 
@@ -33,7 +27,7 @@ It supports **multiple operators, parentheses, decimals, and modulo (%)**, with 
 ## 📂 Project Structure
 
 ```
-SmartCalculator.java
+calculator.java
 README.md
 ```
 
@@ -91,7 +85,7 @@ Calculator closed.
 ## 📖 Supported Operators
 
 | Operator | Meaning                    | Example   | Result |
-| -------- | -------------------------- | --------- | ------ |
+|----------|----------------------------|-----------|--------|
 | `+`      | Addition                   | `2+3`     | `5`    |
 | `-`      | Subtraction                | `10-4`    | `6`    |
 | `*`      | Multiplication             | `3*4`     | `12`   |
@@ -101,7 +95,7 @@ Calculator closed.
 
 ---
 
-## 🏗️ Future Enhancements
+## Future Enhancements
 
 * Add **exponentiation (`^`)** support → `2^3 = 8`
 * Add **scientific functions** (√, sin, cos, log, etc.)
